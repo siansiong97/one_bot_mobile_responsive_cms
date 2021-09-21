@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "One Bot",
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-react-helmet`,],
 };
