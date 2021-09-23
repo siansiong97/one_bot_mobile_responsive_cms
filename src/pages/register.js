@@ -1,16 +1,16 @@
 import * as React from "react"
 import SharedHeader from "../components/general/components/SharedHeader"
-import ProfilePage from "../components/profile/pages/ProfilePage"
+import RegisterPage from "../components/register/pages/RegisterPage"
 
 
 // markup
-const Profile = () => {
+const Register = () => {
   return (
     <React.Fragment>
       <SharedHeader />
-      <ProfilePage />
+      <RegisterPage />
     </React.Fragment>
   )
 }
 
-export default Profile
+export default Register

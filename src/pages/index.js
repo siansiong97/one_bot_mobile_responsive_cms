@@ -4,7 +4,7 @@ import HomePage from "../components/homepage/pages/HomePage"
 
 
 // markup
-const IndexPage = () => {
+const Index = () => {
   return (
     <React.Fragment>
       <SharedHeader />
@@ -13,4 +13,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default Index
